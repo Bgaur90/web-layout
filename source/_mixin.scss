@@ -1,0 +1,35 @@
+@mixin btn_style($bg_color, $border, $box_shadow, $border_radius, $color) {
+    background-color: $bg_color;
+    border: $border;
+    box-shadow: $box_shadow;
+    border-radius: $border_radius;
+    color: $color;
+}
+
+@mixin flex($flex, $justify, $align_item, $wrap, $direction) {
+
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align_item;
+    flex-wrap: $wrap;
+    flex-direction: $direction;
+}
+@mixin bg_image($imgpath, $bg_position, $bg_color, $bg_size, $height, $width) {
+    background-image: url(/source/images/);
+    background-position: $bg_position;
+    background-color:$bg_color;
+    background-size: $bg_size;
+    height: $height;
+    width: $width;
+}
+
+@mixin ipad{
+    @media screen and (max-width:1100px){
+        @content;
+    }
+}
+@mixin phone{
+    @media screen and (max-width:900px){
+        @content;
+    }
+}

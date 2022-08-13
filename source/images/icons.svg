@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+
+    <symbol id="play" width="58" height="58" viewBox="0 0 58 58" fill="none">
+        <circle cx="29" cy="29" r="29" fill="white" />
+        <path d="M36 29L22 21V37L36 29Z" fill="black" stroke="black" />
+    </symbol>
+
+
+</svg>
